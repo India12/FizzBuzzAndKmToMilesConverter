@@ -4,7 +4,6 @@
 text = "FizzBuzz"
 print text.lower()
 
-n = 0
 
 while True:
     n = raw_input("Please enter the number between 1 and 100: ")

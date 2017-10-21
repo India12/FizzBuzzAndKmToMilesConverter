@@ -19,7 +19,6 @@ while True:
                 print("buzz")
             else:
                 print (n)
-            n = n + 1
 
     except Exception as e:
             print "Please enter a number!"

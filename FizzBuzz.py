@@ -25,9 +25,7 @@ while True:
 
     new_enter = raw_input("Would you like to enter another number? (y/n): ").lower()
 
-    if new_enter == "y" or new_enter ==  "yes":
-        continue
-    elif new_enter == "n" or new_enter == "no":
+    if new_enter == "n" or new_enter == "no":
         break
 
 

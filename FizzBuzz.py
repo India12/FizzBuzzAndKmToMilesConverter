@@ -23,7 +23,7 @@ while True:
     except Exception as e:
             print "Please enter a number!"
 
-    new_enter = raw_input("Would you like to enter another number? (y/n): ")
+    new_enter = raw_input("Would you like to enter another number? (y/n): ").lower()
 
     if new_enter == "y" or new_enter ==  "yes":
         continue

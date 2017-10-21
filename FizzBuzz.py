@@ -6,7 +6,7 @@ print text.lower()
 
 
 while True:
-    n = raw_input("Please enter the number between 1 and 100: ")
+    n = raw_input("Please enter a number between 1 and 100: ")
 
     try:
         n = int(n)
@@ -22,13 +22,13 @@ while True:
             n = n + 1
 
     except Exception as e:
-            print "Please enter only a number!"
+            print "Please enter a number!"
 
     new_enter = raw_input("Would you like to enter another number? (y/n): ")
 
-    if new_enter == "y":
+    if new_enter == "y" or "yes:
         continue
-    elif new_enter == "n":
+    elif new_enter == "n" or "no:
         break
 
 

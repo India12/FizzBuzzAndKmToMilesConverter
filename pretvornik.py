@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-#-*- coding: utf-8 -*-
-
-km = 0
-miles = 0
-
 
 print("Hello. You can convert km to miles here :)")
 
